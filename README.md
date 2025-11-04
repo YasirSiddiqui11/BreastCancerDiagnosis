@@ -81,8 +81,10 @@ This classification report details precision, recall, and F1-score metrics for b
 ## How to Run
 1. Clone the repository.
 2. Install dependencies:
+```
    -- pip install pandas numpy matplotlib seaborn scikit-learn
-3. Launch the Jupyter notebook and run all cells.
+```
+4. Launch the Jupyter notebook and run all cells.
 
 ## Conclusions
 The project evaluated multiple machine learning models—including Logistic Regression, Random Forest, and Gradient Boosting—to classify breast cancer tumors using cellular feature datasets. While Random Forest and Gradient Boosting showed strong performance, the Logistic Regression model was ultimately chosen for its excellent balance between accuracy, interpretability, and computational efficiency. The Logistic Regression model achieved a classification accuracy of 96.5%, an area under the ROC curve (AUC) of 0.996, and over 95% precision and recall for both benign and malignant classes. This combination of high predictive power and transparency makes it a valuable tool for clinical decision support. The ensemble models, Random Forest and Gradient Boosting, also demonstrated robust classification with comparable accuracy levels, confirming the reliability of tree-based methods for this task. Together, these results validate that machine learning can significantly enhance breast cancer diagnosis, offering accurate, interpretable, and scalable solutions.

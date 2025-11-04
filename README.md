@@ -64,7 +64,7 @@ Histograms visualize the distribution of selected numeric features like 'radius_
 This heatmap reveals strong positive and negative correlations among features, guiding variable selection and dimensionality reduction strategies. Highly correlated features such as radius_mean and perimeter_mean confirm biological relevance.
 
 # Confusion Matrix
-![Confusion Matrix](images/Screenshot-2025-11-04-002700.jpg)
+![Confusion Matrix]("images/Screenshot 2025-11-04 002700.jpg")
 
 The confusion matrix summarizes our model’s classification outcomes. It shows very few misclassifications, with 71 true negatives and 39 true positives, indicating high reliability in distinguishing tumor types.
 

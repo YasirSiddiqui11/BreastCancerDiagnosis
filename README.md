@@ -54,25 +54,29 @@ Performance metrics and visualizations, including confusion matrices and ROC cur
 ## Results and Visualizations
 
 # Feature Distributions
-![Feature Distributions](images/Screenshot-2025-11
+![WhatsApp Image 2025-11-04 at 00 25 55_aafcaacd](https://github.com/user-attachments/assets/face2f4c-f7e8-41fa-84e3-7bec92b7bb6b)
 
 Histograms visualize the distribution of selected numeric features like 'radius_mean', 'texture_mean', and 'area_mean'. Distinct separations in these distributions between benign and malignant cases indicate their predictive potential.
 
 # Correlation Heatmap
-![Correlation Heatmap](images/Screenshot-2025-11
+![WhatsApp Image 2025-11-04 at 00 26 01_398f1773](https://github.com/user-attachments/assets/ab91bb70-8aa6-448a-9e2e-57da075c2a47)
 
 This heatmap reveals strong positive and negative correlations among features, guiding variable selection and dimensionality reduction strategies. Highly correlated features such as radius_mean and perimeter_mean confirm biological relevance.
 
 # Confusion Matrix
-![Confusion Matrix]("images/Screenshot 2025-11-04 002700.jpg")
+<img width="755" height="475" alt="Screenshot 2025-11-04 002700" src="https://github.com/user-attachments/assets/0b1f42a2-8fb6-4467-a7c5-8165a33bba91" />
 
 The confusion matrix summarizes our model’s classification outcomes. It shows very few misclassifications, with 71 true negatives and 39 true positives, indicating high reliability in distinguishing tumor types.
 
 # ROC Curve
-![ROC Curve](images/WhatsApp-Image-2025-11-04-at-00.26.01_398f177 analysis demonstrates an impressive Area Under the Curve (AUC) of 0.996, reflecting excellent sensitivity and specificity across classification thresholds.
+<img width="797" height="581" alt="Screenshot 2025-11-04 002707" src="https://github.com/user-attachments/assets/0a5d19e7-f6e3-480f-8e98-5c4398a19f61" />
+
+This analysis demonstrates an impressive Area Under the Curve (AUC) of 0.996, reflecting excellent sensitivity and specificity across classification thresholds.
 
 # Classification Report
-![Classification Report](images/WhatsApp-Image-2025-11-04-at-00.25.55_aafca classification report details precision, recall, and F1-score metrics for benign and malignant categories, all exceeding 0.95, confirming model robustness.
+<img width="743" height="326" alt="Screenshot 2025-11-04 002652" src="https://github.com/user-attachments/assets/2cab77d3-84dd-4e70-b0f1-2e1f23f0748b" />
+
+This classification report details precision, recall, and F1-score metrics for benign and malignant categories, all exceeding 0.95, confirming model robustness.
 
 ## How to Run
 1. Clone the repository.
@@ -87,9 +91,6 @@ The project evaluated multiple machine learning models—including Logistic Regr
 Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 Jupyter Notebook
 GitHub
-
-## License
-This project is distributed under the MIT License. Feel free to use and adapt the code for academic or research purposes.
 
 ## Contact
 For any questions, feedback, or collaboration opportunities, please contact at (mohammad-yasir-siddiqui.x@rennes-sb.com).

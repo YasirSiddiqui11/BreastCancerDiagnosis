@@ -18,18 +18,25 @@ The dataset comprises 569 patient records, each with 32 feature columns describi
 
 ## Repository Structure
 ```
-breast_cancer_project/
+BreastCancerDiagnosis/
 │
 ├── data/
-│   └── data.csv                     # Original dataset  
-├── images/                         # Folder for all visualization images  
-│   ├── Screenshot-2025-11-04-002652.jpg (Feature Distributions)  
-│   ├── Screenshot-2025-11-04-002707.jpg (Correlation Heatmap)  
-│   ├── Screenshot-2025-11-04-002700.jpg (Confusion Matrix)  
-│   ├── WhatsApp-Image-2025-11-04-at-00.26.01_398f1773.jpg (ROC Curve)  
-│   ├── WhatsApp-Image-2025-11-04-at-00.25.55_aafcaacd.jpg (Classification Report)  
-├── breast_cancer.ipynb             # Complete analysis and modeling notebook  
-├── README.md                      # This README file  
+│   └── data.csv
+│
+├── notebooks/
+│   └── breast_cancer.ipynb
+│
+├── images/
+│   ├── Screenshot-2025-11-04-002700.jpg
+│   ├── Screenshot-2025-11-04-002652.jpg
+│   ├── WhatsApp-Image-2025-11-04-at-00.26.01_398f1773.jpg
+│   ├── Screenshot-2025-11-04-002707.jpg
+│   └── WhatsApp-Image-2025-11-04-at-00.25.55_aafcaacd.jpg
+│
+├── models/
+│   └── bestbreastcancermodel.joblib
+│
+└── README.md
 ```
 ## Methodology
 1. Data Cleaning
@@ -57,7 +64,7 @@ Histograms visualize the distribution of selected numeric features like 'radius_
 This heatmap reveals strong positive and negative correlations among features, guiding variable selection and dimensionality reduction strategies. Highly correlated features such as radius_mean and perimeter_mean confirm biological relevance.
 
 # Confusion Matrix
-![Confusion Matrix](images/Screenshot-2025-11
+![Confusion Matrix](images/Screenshot-2025-11-04-002700.jpg)
 
 The confusion matrix summarizes our model’s classification outcomes. It shows very few misclassifications, with 71 true negatives and 39 true positives, indicating high reliability in distinguishing tumor types.
 
